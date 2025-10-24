@@ -1,0 +1,59 @@
+/* Make sure html and body take full height */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* Page background full width and height */
+.login-page {
+ 
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* full viewport height */
+  width: 1400px;
+  background: linear-gradient(135deg, #e0eafc, #cfdef3);
+  font-family: 'Arial', sans-serif;
+  box-sizing: border-box;
+}
+
+/* Login card */
+.login-card {
+  background: #ffffff;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  width: 350px;
+  text-align: center;
+  position: relative;
+}
+
+/* User avatar */
+.login-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: #0b355a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+  margin: -60px auto 20px;
+  border: 4px solid #ffffff;
+}
+
+/* Card header */
+.login-card h2 {
+  margin-bottom: 30px;
+  color: #0b355a;
+  font-size: 24px;
+}
+
+/* LoginWidget container */
+.login-widget-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}

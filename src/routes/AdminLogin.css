@@ -1,0 +1,32 @@
+.login-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #f5f7fa;
+  font-family: Arial, sans-serif;
+}
+
+.login-header {
+  width: 100%;
+  text-align: center;
+  padding: 15px 0;
+  background-color: #0b355a;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.login-header h1 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.login-content {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
