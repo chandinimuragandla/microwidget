@@ -1,5 +1,6 @@
 import React from "react";
-import { LoginWidget } from "micro-widget";
+import { LoginWidget } from "@venkatachandini/micro-widget";
+
 import "./AdminLogin.css"; // can use same CSS for all three
 
 const AdminLogin = () => {
